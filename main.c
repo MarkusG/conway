@@ -26,7 +26,7 @@ void draw(const int board[BOARD_SIZE][BOARD_SIZE]) {
 }
 
 int live_neighbors(const int board[BOARD_SIZE][BOARD_SIZE],
-				   const int x, const int y) {
+                   const int x, const int y) {
 	if (!IN_RANGE(x) || !IN_RANGE(y))
 		return -1;
 	int result = 0;
